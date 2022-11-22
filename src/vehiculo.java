@@ -1,10 +1,14 @@
 
 public class vehiculo {
+	public vehiculo (){
+		
+		System.out.println("Brrrrr...acaba de arrancar");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Brrrrr...acaba de arrancar");
-
+		vehiculo miMoto = new vehiculo();
 	}
+	
 
 }
